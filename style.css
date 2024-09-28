@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --mainColor: hsl(47, 88%, 63%);
+  --secondColor: hsl(0, 0%, 42%);
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: Figtree;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--mainColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 45rem;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border-radius: 2rem;
+  border: 0.1rem solid black;
+  box-shadow: 7px 7px 1px 2px black;
+  /* font-size: 2rem; */
+}
+.image img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.content {
+  font-size: 1.6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.date {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.content h1:hover {
+  color: var(--mainColor);
+}
+.content span {
+  text-transform: uppercase;
+}
+.content .tag {
+  text-align: center;
+  width: 25%;
+  background-color: var(--mainColor);
+  display: inline-block;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+}
+.description {
+  width: 76%;
+  color: var(--secondColor);
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--mainColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 45rem;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-radius: 2rem;
+    border: 0.1rem solid black;
+    box-shadow: 7px 7px 1px 2px black;
+    /* font-size: 2rem; */
+  }
+  .image img {
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  .content {
+    font-size: 1.6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .date {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .content h1:hover {
+    color: var(--mainColor);
+  }
+  .content span {
+    text-transform: uppercase;
+  }
+  .content .tag {
+    text-align: center;
+    width: 25%;
+    background-color: var(--mainColor);
+    display: inline-block;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+  }
+  .description {
+    width: 76%;
+    color: var(--secondColor);
+  }
+  .avatar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .avatar img {
+    flex-basis: 2rem;
+  }
+
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.avatar img {
+  flex-basis: 2rem;
+}
